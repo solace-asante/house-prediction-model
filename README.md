@@ -34,7 +34,7 @@ I experimented with baseline linear regression, feature ablation, Ridge regressi
 |---|---|
 | Baseline predict the mean | 0.526 |
 | Linear regression | about 0.253 |
-| Ridge / Lasso | about 0.253 no gain |
+| Ridge / Lasso | about 0.253|
 | Polynomial, degree 2 | 0.225 |
 
 Hold-out test (notebook, used once): RMSE 0.227 on log price, MAE about $96k.
