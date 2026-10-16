@@ -79,7 +79,7 @@ Try random forest and XGBoost, test PCA, and serve predictions with a FastAPI en
 2. python -m venv .venv && source .venv/bin/activate
 3. pip install -r requirements.txt
 4. python src/train.py   (prints CV scores, saves models/house_price_model.joblib)
-5. 5. Predict from Python:
+5. Predict from Python:
    import sys; sys.path.append("src")
    from predict import predict_house_price
    predict_house_price("path/to/new_houses.csv")
@@ -115,6 +115,3 @@ Python, pandas, NumPy, scikit-learn and Jupyter Notebook.
 
 I gained practical experience in exploratory data analysis, feature engineering, regression modelling, feature selection, cross-validation, model evaluation, saving trained models, and generating predictions on new data.
 
-## Disclaimer
-
-Predictions are estimates based on historical data and should not be used as the sole basis for property purchasing or financial decisions.
